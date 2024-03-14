@@ -1,7 +1,7 @@
 # BoundaryPhysicsInformedNeuralOperator
 
 ## Overview
-This repository hosts a portion of the code accompanying the research paper titled ["Learning Only on Boundaries: A Physics-Informed Neural Operator for Solving Parametric Partial Differential Equations in Complex Geometries"](https://arxiv.org/abs/2308.12939). The paper explores a novel approach to solving parametric partial differential equations using physics-informed neural networks in complex geometries.
+This repository hosts a portion of the code accompanying the research paper titled ["Learning Only on Boundaries: A Physics-Informed Neural Operator for Solving Parametric Partial Differential Equations in Complex Geometries"](https://direct.mit.edu/neco/article-abstract/36/3/475/119621/Learning-Only-on-Boundaries-A-Physics-Informed?redirectedFrom=fulltext). The paper explores a novel approach to solving parametric partial differential equations using physics-informed neural networks in complex geometries.
 
 ## Dependencies
 - **Quadpy**: This package was originally used for quadrature rules, but it has become a paid resource. We have replaced parts of the code relying on Quadpy with a custom quadrature function. Therefore, Quadpy is no longer a dependency for this project. [Quadpy GitHub](https://github.com/sigma-py/quadpy)
